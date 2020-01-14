@@ -125,7 +125,7 @@ ls
 rm <file> and you have to be careful because there is no warning and it is permanent 
 
 34. Why should I use version control? 
-you can time travel and go back to many old points if needed.
+you can time travel and go back to many old points if needed, or multiple people can work on something at once.
 
 35. How often should I commit to github?
 When you've made a meaningful change to your work. maybe about 20 minutes.
@@ -147,17 +147,21 @@ pull request
 Stretch Questions
 
 1. What is the difference between an inline element and a block element?
-
+Inline elements only takes up as much width as it needs, and does not force new lines.
+Block elements takes up the full width available, with a new line before and after.
 
 2. What happens when an element is positioned absolutely? 
-
+takes things out of the flow of the rest of the page. they anchor to the closest parent element.
 
 3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+inline element
 
-
-4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-
+4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+block = div, p, section 
+inline = object, span
+inline-block = img
 
 5. In your own words, explain the box model. What is the fix for the box model? 
-
-
+Every html element is in a series of boxes, russian doll style. 
+You have your content box, which is inside the padding box, which is inside the border box, which is inside the margin box.
+Content -> Padding -> Border -> Margin
